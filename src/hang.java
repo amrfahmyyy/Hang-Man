@@ -19,9 +19,12 @@ import java.util.*;
 		while(scan.hasNext()) {
 			String str = scan.next();
 			words[i]=str;
-			System.out.println(words[i]);
+			
 			i++;
 		}
+		Random rand = new Random(); 
+		int value = rand.nextInt(1000); 
+		System.out.println(words[value]);
 		
 	}
 	
