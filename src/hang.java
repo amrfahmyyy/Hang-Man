@@ -14,12 +14,17 @@ import java.util.*;
 	
 	public void readFile()
 	{
-		
+		int i=0;
+		String words[] = new String[1000];
 		while(scan.hasNext()) {
-			String x =  scan.nextLine();
-			System.out.println(x);
+			String str = scan.next();
+			words[i]=str;
+			System.out.println(words[i]);
+			i++;
 		}
+		
 	}
+	
 	public void close()
 	{
 		scan.close();
